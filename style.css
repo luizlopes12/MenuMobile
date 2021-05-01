@@ -7,6 +7,13 @@
 ul, ol, li{
     list-style: none;
 }
+
+
+
+
+
+@media(max-width: 800px){
+
 .btnmenu:hover{
     cursor: pointer;
 }
@@ -45,4 +52,7 @@ ul, ol, li{
 }
 .menu_open{
     transform: translateX(0);
+}
+
+
 }
