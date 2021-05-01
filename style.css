@@ -24,3 +24,25 @@ ul, ol, li{
     background-color: #747c81;
     background-image: url('imgs/close.png');
 }
+.menu-item{
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(116, 124, 129, 0.7);
+}
+.menu-item-action{
+    text-decoration: none;
+    color: #747c81;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .2s linear;
+}
+.menu_open{
+    transform: translateX(0);
+}
