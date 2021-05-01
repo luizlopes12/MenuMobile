@@ -4,45 +4,23 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#check{
-    display: none;
+ul, ol, li{
+    list-style: none;
 }
-#icone{
+.btnmenu:hover{
     cursor: pointer;
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
 }
-main img{
-    width: 25px;
+.btn-menu{
+    display: block;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    padding: 20px 15px;
+    background-position: 15px center;
 }
-.barra{
-    background-color: #2e2e2e;
-    height: 100%;
-    width: 300px;
-    position: absolute;
-    left: -300px;
-    transition: all .2s linear;
+.btn-menu-open{
+    background-image: url('imgs/menu.png');
 }
-nav{
-    width: 100%;
-    position: absolute;
-    top: 60px;
-}
-nav a{
-    text-decoration: none;
-    color: white;
-}
-
-#check:checked ~ .barra{
-    transform: translateX(300px);
-}
-.link{
-    padding: 20px;
-    font-size: 12px;
-    color: #f4f4f9;
-    border-bottom: 2px solid #222;
-}
-.link:hover{
-    background-color: #505050;
+.btn-menu-close{
+    background-color: #747c81;
+    background-image: url('imgs/menu.png');
 }
