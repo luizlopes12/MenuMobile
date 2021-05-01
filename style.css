@@ -4,3 +4,42 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #2e2e2e;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    left: -300px;
+    transition: all .2s linear;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    padding: 20px;
+    font-size: 12px;
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+}
+.link:hover{
+    background-color: #505050;
+}
+
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
