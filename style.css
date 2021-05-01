@@ -13,6 +13,9 @@
     position: absolute;
     z-index: 1;
 }
+main img{
+    width: 25px;
+}
 .barra{
     background-color: #2e2e2e;
     height: 100%;
@@ -30,6 +33,10 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
 .link{
     padding: 20px;
     font-size: 12px;
@@ -38,8 +45,4 @@ nav a{
 }
 .link:hover{
     background-color: #505050;
-}
-
-#check:checked ~ .barra{
-    transform: translateX(300px);
 }
