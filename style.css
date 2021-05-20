@@ -14,7 +14,7 @@ ul, ol, li{
 
 @media(max-width: 800px){
 
-.btnmenu:hover{
+.btn-menu:hover{
     cursor: pointer;
 }
 .btn-menu{
