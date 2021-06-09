@@ -7,11 +7,6 @@
 ul, ol, li{
     list-style: none;
 }
-
-
-
-
-
 @media(max-width: 800px){
 
 .btn-menu:hover{
@@ -25,11 +20,11 @@ ul, ol, li{
     background-position: 15px center;
 }
 .btn-menu-open{
-    background-image: url('imgs/menu.png');
+    background-image: url('imgs/menu-abrir.svg');
 }
 .btn-menu-close{
-    background-color: #747c81;
-    background-image: url('imgs/close.png');
+    background-color: #ffffff;
+    background-image: url('imgs/menu-fechar.svg');
 }
 .menu-item{
     padding: 15px 20px;
@@ -40,7 +35,6 @@ ul, ol, li{
     color: #747c81;
     text-transform: uppercase;
     font-size: 12px;
-
 }
 .menu{
     position: absolute;
