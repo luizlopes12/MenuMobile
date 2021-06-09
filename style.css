@@ -16,6 +16,7 @@ ul, ol, li{
     display: block;
     background-repeat: no-repeat;
     text-indent: -9999px;
+    width: 60px;
     padding: 20px 15px;
     background-position: 15px center;
 }
