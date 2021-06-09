@@ -7,6 +7,9 @@
 ul, ol, li{
     list-style: none;
 }
+body{
+    background-color: black;
+}
 @media(max-width: 800px){
 
 .btn-menu:hover{
@@ -16,19 +19,21 @@ ul, ol, li{
     display: block;
     background-repeat: no-repeat;
     text-indent: -9999px;
-    width: 60px;
-    padding: 20px 15px;
+    width: 70px;
+    padding: 15px;
+    margin: 15px 0px;
     background-position: 15px center;
 }
 .btn-menu-open{
-    background-image: url('imgs/menu-abrir.svg');
+    background-image: url('../imgs/menu-abrir.svg');
 }
 .btn-menu-close{
     background-color: #ffffff;
-    background-image: url('imgs/menu-fechar.svg');
+    background-image: url('../imgs/menu-fechar.svg');
 }
 .menu-item{
-    padding: 15px 20px;
+    text-align: center;
+    padding: 15px 10px;
     border-bottom: 1px solid rgba(116, 124, 129, 0.7);
 }
 .menu-item-action{
@@ -40,10 +45,12 @@ ul, ol, li{
 .menu{
     position: absolute;
     width: 100%;
+    height: 100vh;
     top: 0;
+    background-color: white;
     left: 0;
     transform: translateX(-100%);
-    transition: all .2s linear;
+    transition: all .15s linear;
 }
 .menu_open{
     transform: translateX(0);
