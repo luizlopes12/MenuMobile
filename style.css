@@ -8,9 +8,9 @@ ul, ol, li{
     list-style: none;
 }
 body{
-    background-color: black;
+    background-color: rgb(168, 168, 168);
 }
-@media(max-width: 800px){
+
 
 .btn-menu:hover{
     cursor: pointer;
@@ -20,7 +20,7 @@ body{
     background-repeat: no-repeat;
     text-indent: -9999px;
     width: 70px;
-    padding: 15px;
+    padding: 18px;
     margin: 15px 0px;
     background-position: 15px center;
 }
@@ -35,6 +35,7 @@ body{
     text-align: center;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(116, 124, 129, 0.7);
+    
 }
 .menu-item-action{
     text-decoration: none;
@@ -57,4 +58,3 @@ body{
 }
 
 
-}
