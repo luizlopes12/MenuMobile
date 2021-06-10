@@ -25,11 +25,11 @@ body{
     background-position: 15px center;
 }
 .btn-menu-open{
-    background-image: url('../imgs/menu-abrir.svg');
+    background-image: url('imgs/menu-abrir.svg');
 }
 .btn-menu-close{
     background-color: #ffffff;
-    background-image: url('../imgs/menu-fechar.svg');
+    background-image: url('imgs/menu-fechar.svg');
 }
 .menu-item{
     text-align: center;
